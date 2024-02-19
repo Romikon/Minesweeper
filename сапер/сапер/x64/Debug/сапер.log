@@ -1,0 +1,4 @@
+﻿  сапер.cpp
+C:\Users\Roman\Desktop\projects\сапер\сапер\сапер.cpp(188,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Roman\Desktop\projects\сапер\сапер\сапер.cpp(182): warning C4715: 'User_choise': not all control paths return a value
+  сапер.vcxproj -> C:\Users\Roman\Desktop\projects\сапер\x64\Debug\сапер.exe
