@@ -139,14 +139,7 @@ bool User_choise(int a[10][10], int horizont[5], int vertical[5])
     }
 
 
-    if (counter == 0)
-    {
-        a[num1 - 1][num2 - 1] = counter;
-    }
-    else
-    {
-        a[num1 - 1][num2 - 1] = counter;
-    }
+    a[num1 - 1][num2 - 1] = counter;
 
 
     for (int i = 0; i < 5; i++)
