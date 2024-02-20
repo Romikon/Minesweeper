@@ -154,13 +154,8 @@ bool User_choise(int a[10][10], int horizont[5], int vertical[5])
             }
         }
 
-
         Show_board(a);
     }
-
-
-    
-    
 }
 
 
