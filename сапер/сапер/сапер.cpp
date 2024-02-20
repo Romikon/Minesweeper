@@ -18,20 +18,19 @@ void Board(int a[10][10])
 void Show_board(int a[10][10])
 {
 
-    int numbers1[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-    int numbers2[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    int numbers[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
     cout << "\t";
 
     for (int i = 0; i < 10; i++)
     {
-        cout << numbers1[i] << "\t";
+        cout << numbers[i] << "\t";
     }
     cout << endl;
 
     for (int i = 0; i < 10; i++)
     {
-        cout << numbers2[i] << "\t";
+        cout << numbers[i] << "\t";
         for (int j = 0; j < 10; j++)
         {
             if (a[i][j] != 35)
@@ -77,9 +76,9 @@ bool User_choise(int a[10][10], int horizont[5], int vertical[5])
     int num1;
     int num2;
 
-    cout << "Enter first number: ";
+    cout << "Enter row number: ";
     cin >> num1;
-    cout << "Enter second number: ";
+    cout << "Enter column number: ";
     cin >> num2;
 
     if (num1 < 1 || num2 < 1 || num1 > 10 || num2 > 10)
@@ -155,8 +154,13 @@ bool User_choise(int a[10][10], int horizont[5], int vertical[5])
             }
         }
 
+
         Show_board(a);
     }
+
+
+    
+    
 }
 
 
